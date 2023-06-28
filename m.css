@@ -47,6 +47,7 @@ body {
     display: flex;
     width: 90%;
     margin: 0 auto;
+    margin-bottom:20%;
     border-radius: 20px;
     margin-top: 20px;
     outline: 2px solid #383838;
