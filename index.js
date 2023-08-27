@@ -50,7 +50,7 @@ main();
 
 
 function data(){
-  const title = "MAZE : Puzzle Your Way Out!";
+  const title = "Maze Of Math Riddles";
   const description = "Escape the Puzzle Maze: Embark on an exhilarating journey of logical discovery as you navigate your way out of intricate mazes filled with mind-bending puzzles. Unleash your strategic thinking skills and outsmart the labyrinth by solving each puzzle that lies within. With every triumph, you'll unlock the secrets of solving these challenges and cultivate a newfound ability for logical reasoning."
   +"|Elevate Your Intellectual Pursuits|"
   +"Immerse yourself in a world of enigmatic puzzles concealed within the depths of geometric shapes. Engage in brain games meticulously designed to exercise both hemispheres of your brain, unveiling the intricate relationships hidden within numbers and shapes. Prepare to push the boundaries of your mind and expand your cognitive prowess."
