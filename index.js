@@ -1,10 +1,10 @@
 function main() {
 
   const package = data()
-  var img = document.getElementById("scsh");
+  //var img = document.getElementById("scsh");
   var title = document.getElementById("title");
   title.textContent = package[0];
-  img.src = package[3];
+  //img.src = package[3];
 
 
   const outputDiv = document.getElementById("desc");
@@ -23,12 +23,12 @@ function main() {
   const image = document.getElementById("playstore");
 
   image.addEventListener("click", function() {
-    window.location.href = package[4];
+    window.location.href = package[3];
   });
 
   const pp = document.getElementById("privacy");
   pp.addEventListener("click", function() {
-    window.location.href = package[5];
+    window.location.href = package[4];
   });
   
 }
@@ -71,8 +71,7 @@ function data(){
   +"\n Train both halves of your brain for a well-rounded cognitive experience."
   +"\n Find purpose and fulfillment in your newfound leisure time.";
   const logo = "R/maze/mazeLogo.png";
-  const scsh = "R/maze/mazeScreenshot.png"; 
   const link = "https://play.google.com/store/apps/details?id=com.codewhy.maze";
   const policy = "https://thecodewhy.github.io/maze_pp/"
-  return [title,description,logo,scsh,link,policy]
+  return [title,description,logo,link,policy]
 }

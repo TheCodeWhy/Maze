@@ -54,7 +54,7 @@ body {
 }
 @font-face {
     font-family: norwester;
-    src: url(R/norwester.otf);
+    src: url(https://github.com/TheCodeWhy/thecodewhy.github.io/blob/main/R/norwester.otf);
 }
 .ttl{
     font-family: "norwester";
